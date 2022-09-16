@@ -21,13 +21,21 @@ public class ImpactoSubito : MonoBehaviour
         shield = 100f;
 
 
-        Impacto();
+        //Impacto();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //Compruebo si pulsan el espacio 
+        //Y SI ESTOY VIVO
+        if(Input.GetKeyDown(KeyCode.Space) && alive)
+        {
+
+                Impacto();
+        }
+
+
     }
 
     void Impacto()
@@ -50,13 +58,13 @@ public class ImpactoSubito : MonoBehaviour
             {
                 shield = 100f;
                 message = "Has perdido una vida. Te quedan " + lifes;
-                Invoke("Impacto", 2f);
+                //Invoke("Impacto", 2f);
             }
 
         }
         else
         {
-            Invoke("Impacto", 2f);
+            //Invoke("Impacto", 2f);
             message = "Te han impactado con " + damage + ". Te queda " + shield + " de escudo";
         }
 
