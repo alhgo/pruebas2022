@@ -34,6 +34,11 @@ public class MiPrimerScript : MonoBehaviour
         float powerUp = 50f;
 
         //shield += powerUp;
+
+
+
+
+
         
 
        
@@ -45,7 +50,7 @@ public class MiPrimerScript : MonoBehaviour
 
     private void Update()
     {
-
+        /*
         //print("Fotograma: " + n);
         n++;
 
@@ -79,7 +84,7 @@ public class MiPrimerScript : MonoBehaviour
         
 
 
-
+        */
 
     }
 
