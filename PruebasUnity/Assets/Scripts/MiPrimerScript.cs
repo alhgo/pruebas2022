@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class MiPrimerScript : MonoBehaviour
 {
+ 
+
+
 
     //Numero de vidas
     [SerializeField] int lifes;
@@ -39,8 +42,10 @@ public class MiPrimerScript : MonoBehaviour
 
 
 
-        
 
+
+
+     
        
 
 
